@@ -1,12 +1,12 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import { PropertyGallery } from "../components/propertyDetail";
 import OwnerSummaryCard from "../components/PropertyDetail/Main/OwnerSummaryCard";
 import PropertyMainInfo from "../components/PropertyDetail/Main/PropertyMainInfo";
 
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
 import { getPropertyById } from "../services/property.api";
+import PropertyGallery from "./../components/PropertyDetail/PropertyGallery";
 
 export default function PropertyDetail() {
   const { id } = useParams();
