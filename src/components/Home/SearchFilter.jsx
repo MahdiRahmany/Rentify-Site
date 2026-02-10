@@ -98,7 +98,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl">
             <div className="absolute inset-0">
               <img
-                src="src/assets/icons/dep.svg"
+                src="public/assets/icons/dep.svg"
                 alt="department"
                 className="w-full h-full object-cover"
               />
