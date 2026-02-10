@@ -5,16 +5,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const IMAGES = [
-  "/src/assets/icons/Frame-2.svg",
-  "/src/assets/icons/Frame-1.svg",
-  "/src/assets/icons/Frame-2.svg",
-  "/src/assets/icons/Frame-1.svg",
-  "/src/assets/icons/Frame-2.svg",
+  "/assets/icons/Frame-2.svg",
+  "/assets/icons/Frame-1.svg",
+  "/assets/icons/Frame-2.svg",
+  "/assets/icons/Frame-1.svg",
+  "/assets/icons/Frame-2.svg",
 ];
 
 export default function PropertyGallery({ images }) {
-  const finalImages =
-    Array.isArray(images) && images.length ? images : IMAGES;
+  const finalImages = Array.isArray(images) && images.length ? images : IMAGES;
 
   return (
     <div>

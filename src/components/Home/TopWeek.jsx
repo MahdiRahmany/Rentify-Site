@@ -7,7 +7,7 @@ export default function TopWeek() {
         </p>
         <div className="flex gap-x-0.5 ml-4 cursor-pointer">
           <p className="text-btn-s text-primary">مشاهده همه</p>
-          <img src="/src/assets/icons/left-arrow-2.svg" />
+          <img src="/assets/icons/left-arrow-2.svg" />
         </div>
       </div>
 
@@ -15,14 +15,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-1.svg"
+                src="/assets/icons/heart-1.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -38,7 +38,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -58,7 +58,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>
@@ -76,14 +76,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-2.svg"
+                src="/assets/icons/heart-2.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -97,7 +97,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -117,7 +117,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -125,7 +125,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>
@@ -135,14 +135,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-1.svg"
+                src="/assets/icons/heart-1.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -156,7 +156,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -176,7 +176,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -184,7 +184,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>
@@ -194,14 +194,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-1.svg"
+                src="/assets/icons/heart-1.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -217,7 +217,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -237,7 +237,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -245,7 +245,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>
@@ -255,14 +255,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-1.svg"
+                src="/assets/icons/heart-1.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -278,7 +278,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -298,7 +298,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -306,7 +306,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>
@@ -316,14 +316,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-1.svg"
+                src="/assets/icons/heart-1.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -339,7 +339,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -359,7 +359,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -367,7 +367,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>
@@ -377,14 +377,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-1.svg"
+                src="/assets/icons/heart-1.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -400,7 +400,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -420,7 +420,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -428,7 +428,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>
@@ -438,14 +438,14 @@ export default function TopWeek() {
         <div className="flex flex-col bg-white overflow-hidden rounded-xl">
           <div className="relative overflow-hidden rounded-t-xl">
             <img
-              src="/src/assets/icons/top-week/villa-house-1.png"
+              src="/assets/icons/top-week/villa-house-1.png"
               alt="villa"
               className="w-full h-52 object-cover"
             />
 
             <div className="absolute top-3 right-3 w-6 h-6 bg-neutral-tint-3 rounded-full flex justify-center items-center">
               <img
-                src="/src/assets/icons/heart-1.svg"
+                src="/assets/icons/heart-1.svg"
                 alt="like"
                 className="w-3 h-3 cursor-pointer"
               />
@@ -461,7 +461,7 @@ export default function TopWeek() {
               </div>
               <div className="flex justify-center items-center mr-2">
                 <img
-                  src="/src/assets/icons/location-point.svg"
+                  src="/assets/icons/location-point.svg"
                   className="w-3 h-3 pl-1"
                 />
                 <p className="text-caption-md text-neutral-tint-3">
@@ -481,7 +481,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">رهن</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۴/۰۰۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
 
@@ -489,7 +489,7 @@ export default function TopWeek() {
                 <p className="py-1 pl-1">اجاره</p>
                 <div className="flex justify-center items-center bg-white rounded-md p-1 gap-0.5">
                   <p>۵۰/۰۰۰/۰۰۰</p>
-                  <img src="/src/assets/icons/toman.svg" />
+                  <img src="/assets/icons/toman.svg" />
                 </div>
               </div>
             </div>

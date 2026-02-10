@@ -11,7 +11,7 @@ export default function Description() {
         <div className="flex flex-col lg:items-start items-center">
           <div className="bg-neutral-tint-1 rounded-full w-28 h-28 flex justify-center items-center relative mb-4 mx-6">
             <img
-              src="/src/assets/icons/search-2.svg"
+              src="/assets/icons/search-2.svg"
               className="w-13 h-13 text-white"
             />
             <div className="absolute right-24 bg-primary-shade-2 w-9 h-9 rounded-full flex justify-center items-center border-white border-2">
@@ -34,7 +34,7 @@ export default function Description() {
         <div className="flex flex-col lg:items-start items-center">
           <div className="bg-neutral-tint-1 rounded-full w-28 h-28 flex justify-center items-center relative mb-4 mx-6">
             <img
-              src="/src/assets/icons/search-2.svg"
+              src="/assets/icons/search-2.svg"
               className="w-13 h-13 text-white"
             />
             <div className="absolute right-24 bg-primary-shade-2 w-9 h-9 rounded-full flex justify-center items-center border-white border-2">
@@ -57,7 +57,7 @@ export default function Description() {
         <div className="flex flex-col lg:items-start items-center">
           <div className="bg-neutral-tint-1 rounded-full w-28 h-28 flex justify-center items-center relative mb-4 mx-6">
             <img
-              src="/src/assets/icons/search-2.svg"
+              src="/assets/icons/search-2.svg"
               className="w-13 h-13 text-white"
             />
             <div className="absolute right-24 bg-primary-shade-2 w-9 h-9 rounded-full flex justify-center items-center border-white border-2">
@@ -80,7 +80,7 @@ export default function Description() {
         <div className="flex flex-col lg:items-start items-center">
           <div className="bg-neutral-tint-1 rounded-full w-28 h-28 flex justify-center items-center relative mb-4 mx-6">
             <img
-              src="/src/assets/icons/search-2.svg"
+              src="/assets/icons/search-2.svg"
               className="w-13 h-13 text-white"
             />
             <div className="absolute right-24 bg-primary-shade-2 w-9 h-9 rounded-full flex justify-center items-center border-white border-2">
@@ -112,7 +112,7 @@ export default function Description() {
           </button>
         </div>
         <div className="hidden lg:block">
-          <img src="/src/assets/icons/end-body/men-poster.svg" />
+          <img src="/assets/icons/end-body/men-poster.svg" />
         </div>
       </div>
     </div>

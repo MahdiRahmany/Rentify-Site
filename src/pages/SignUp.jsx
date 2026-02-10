@@ -119,7 +119,7 @@ const SignUp = () => {
           {step === "signup" && (
             <>
               <div className="flex flex-col justify-center items-center gap-y-20 mb-12 mt-28">
-                <img src="/src/assets/icons/logo.svg" alt="logo" />
+                <img src="/assets/icons/logo.svg" alt="logo" />
                 <p className="heading-h3 mt-2 font-medium">
                   <span
                     className={`cursor-pointer ${
@@ -448,8 +448,8 @@ const SignUp = () => {
                         ? "bg-blue-500 hover:bg-blue-600"
                         : "bg-gray-300 cursor-not-allowed"
                       : !loading
-                      ? "bg-blue-500 hover:bg-blue-600"
-                      : "bg-gray-300 cursor-not-allowed"
+                        ? "bg-blue-500 hover:bg-blue-600"
+                        : "bg-gray-300 cursor-not-allowed"
                   }`}
                 >
                   {loading ? "در حال ارسال..." : "تأیید و دریافت کد"}

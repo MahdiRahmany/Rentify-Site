@@ -8,7 +8,7 @@ export default function OwnerSummaryCard({ owner }) {
   return (
     <div className="p-6 border border-neutral-tint-4 rounded-xl">
       <div className="mt-6 flex justify-center items-center gap-x-3 mb-10">
-        <img src="/src/assets/icons/user.svg" alt="user-icon" />
+        <img src="/assets/icons/user.svg" alt="user-icon" />
         <div>
           <p className="heading-h6 text-neutral-tint-1">{name}</p>
           <p className="text-body-1xs text-neutral-tint-3">{agency}</p>

@@ -16,21 +16,21 @@ export default function SearchFilter() {
             <div>
               <div className="flex justify-between items-center text-neutral-tint-3 gap-y-2.5 cursor-pointer text-body-1xs">
                 <p>موقعیت مکانی</p>
-                <img src="/src/assets/icons/down-arrow.svg" />
+                <img src="/assets/icons/down-arrow.svg" />
               </div>
               <p className="cursor-default text-btn-lg">تهران-نیاوران</p>
             </div>
             <div>
               <div className="flex justify-between items-center text-neutral-tint-3 gap-y-2.5 cursor-pointer text-body-1xs">
                 <p>نوع ملک</p>
-                <img src="/src/assets/icons/down-arrow.svg" />
+                <img src="/assets/icons/down-arrow.svg" />
               </div>
               <p className="cursor-default text-btn-lg">ویلا</p>
             </div>
             <div>
               <div className="flex justify-between items-center text-neutral-tint-3 gap-y-2.5 cursor-pointer text-body-1xs">
                 <p>نوع قرارداد</p>
-                <img src="/src/assets/icons/down-arrow.svg" />
+                <img src="/assets/icons/down-arrow.svg" />
               </div>
               <p className="cursor-default text-btn-lg">رهن</p>
             </div>
@@ -38,7 +38,7 @@ export default function SearchFilter() {
 
           <div className="bg-primary flex justify-center items-center gap-x-1 cursor-pointer text-btn-s  text-white">
             <img
-              src="/src/assets/icons/search.svg"
+              src="/assets/icons/search.svg"
               alt="Search"
               className="w-6 h-6"
             />
@@ -51,25 +51,25 @@ export default function SearchFilter() {
             <div className="bg-primary text-white rounded-xl py-2 w-full flex justify-center items-center my-3">
               <p> موقعیت مکانی</p>
               <img
-                src="/src/assets/icons/down-arrow-white.svg"
+                src="/assets/icons/down-arrow-white.svg"
                 className="text-white"
               />
             </div>
             <div className="w-full grid grid-cols-2 gap-x-4">
               <div className="flex justify-center items-center bg-primary text-white rounded-xl py-2">
                 <p>نوع ویلا</p>
-                <img src="/src/assets/icons/down-arrow-white.svg" />
+                <img src="/assets/icons/down-arrow-white.svg" />
               </div>
               <div className="flex bg-primary justify-center items-center rounded-xl py-2 text-white">
                 <p>نوع قرارداد</p>
-                <img src="/src/assets/icons/down-arrow-white.svg" />
+                <img src="/assets/icons/down-arrow-white.svg" />
               </div>
             </div>
           </div>
           <button className="flex bg-primary text-white justify-center items-center rounded-xl py-2 w-full mb-3">
             <p>جستجو</p>
             <img
-              src="/src/assets/icons/search.svg"
+              src="/assets/icons/search.svg"
               alt="Search"
               className="w-6 h-6"
             />
@@ -80,7 +80,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl">
             <div className="absolute inset-0">
               <img
-                src="src/assets/icons/villa.svg"
+                src="/assets/icons/villa.svg"
                 alt="Villa"
                 className="w-full h-full object-cover"
               />
@@ -92,7 +92,7 @@ export default function SearchFilter() {
                 <p className="text-neutral-500 text-body-1xs">+92ملک</p>
               </div>
               <div className="rounded-full bg-primary w-12 h-12 flex justify-center items-center cursor-pointer">
-                <img src="src/assets/icons/left-arrow.svg" alt="arrow" />
+                <img src="/assets/icons/left-arrow.svg" alt="arrow" />
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function SearchFilter() {
                 <p className="text-neutral-500 text-body-1xs">+92ملک</p>
               </div>
               <div className="rounded-full bg-primary w-12 h-12 flex justify-center items-center cursor-pointer">
-                <img src="src/assets/icons/left-arrow.svg" alt="arrow" />
+                <img src="/assets/icons/left-arrow.svg" alt="arrow" />
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl">
             <div className="absolute inset-0">
               <img
-                src={home}
+                src="/assets/icons/home.svg"
                 alt="Villa house"
                 className="w-full h-full object-cover"
               />
@@ -132,7 +132,7 @@ export default function SearchFilter() {
                 <p className="text-neutral-500 text-body-1xs">+92ملک</p>
               </div>
               <div className="rounded-full bg-primary w-12 h-12 flex justify-center items-center cursor-pointer">
-                <img src="src/assets/icons/left-arrow.svg" alt="arrow" />
+                <img src="/assets/icons/left-arrow.svg" alt="arrow" />
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl snap-center min-w-[350px] mr-8">
             <div className="absolute inset-0">
               <img
-                src="src/assets/icons/villa.svg"
+                src="/assets/icons/villa.svg"
                 alt="Villa"
                 className="w-full h-full object-cover"
               />
@@ -154,7 +154,7 @@ export default function SearchFilter() {
                 <p className="text-neutral-500 text-body-1xs">+92ملک</p>
               </div>
               <div className="rounded-full bg-primary w-12 h-12 flex justify-center items-center cursor-pointer">
-                <img src="src/assets/icons/left-arrow.svg" alt="arrow" />
+                <img src="/assets/icons/left-arrow.svg" alt="arrow" />
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl snap-center min-w-[350px]">
             <div className="absolute inset-0">
               <img
-                src="src/assets/icons/dep.svg"
+                src="/assets/icons/dep.svg"
                 alt="department"
                 className="w-full h-full object-cover"
               />
@@ -174,7 +174,7 @@ export default function SearchFilter() {
                 <p className="text-neutral-500 text-body-1xs">+92ملک</p>
               </div>
               <div className="rounded-full bg-primary w-12 h-12 flex justify-center items-center cursor-pointer">
-                <img src="src/assets/icons/left-arrow.svg" alt="arrow" />
+                <img src="/assets/icons/left-arrow.svg" alt="arrow" />
               </div>
             </div>
           </div>
@@ -182,7 +182,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl snap-center min-w-[350px] ml-8">
             <div className="absolute inset-0">
               <img
-                src="src/assets/icons/home.svg"
+                src="/assets/icons/home.svg"
                 alt="Villa house"
                 className="w-full h-full object-cover"
               />
@@ -194,7 +194,7 @@ export default function SearchFilter() {
                 <p className="text-neutral-500 text-body-1xs">+92ملک</p>
               </div>
               <div className="rounded-full bg-primary w-12 h-12 flex justify-center items-center cursor-pointer">
-                <img src="src/assets/icons/left-arrow.svg" alt="arrow" />
+                <img src="/assets/icons/left-arrow.svg" alt="arrow" />
               </div>
             </div>
           </div>

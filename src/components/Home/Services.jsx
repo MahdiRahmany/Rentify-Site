@@ -10,7 +10,7 @@ export default function Services() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-white flex flex-col justify-between rounded-2xl transition duration-300 transform hover:scale-105">
           <div className="m-4 space-y-6 flex flex-col items-center">
-            <img src="/src/assets/icons/services/image-1.svg" className="w-full"/>
+            <img src="/assets/icons/services/image-1.svg" className="w-full" />
 
             <div className="flex flex-col justify-center items-center gap-y-3 mb-13 text-center cursor-default">
               <p className="text-h5 font-bold">مشاور املاک هستید؟</p>
@@ -29,7 +29,7 @@ export default function Services() {
 
         <div className="bg-white flex flex-col justify-between rounded-2xl transition duration-300 transform hover:scale-105">
           <div className="m-4 space-y-6 flex flex-col items-center">
-            <img src="/src/assets/icons/services/image-1.svg" className="w-full"/>
+            <img src="/assets/icons/services/image-1.svg" className="w-full" />
 
             <div className="flex flex-col justify-center items-center gap-y-3 mb-13 text-center cursor-default">
               <p className="text-h5 font-bold">مالک هستید؟</p>
@@ -47,7 +47,7 @@ export default function Services() {
 
         <div className="bg-white col-span-full md:col-span-2 lg:col-span-1 flex flex-col justify-between rounded-2xl transition duration-300 transform hover:scale-105">
           <div className="m-4 space-y-6 flex flex-col items-center">
-            <img src="/src/assets/icons/services/image-1.svg" className="w-full"/>
+            <img src="/assets/icons/services/image-1.svg" className="w-full" />
 
             <div className="flex flex-col justify-center items-center gap-y-3 mb-13 text-center cursor-default">
               <p className="text-h5 font-bold">

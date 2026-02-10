@@ -17,7 +17,9 @@ export default function PropertyMainInfo({ property }) {
 
   const idLabel = property?.id ?? property?._id ?? property?.code ?? "۵۴۳۶";
 
-  const amenities = Array.isArray(property?.amenities) ? property.amenities : [];
+  const amenities = Array.isArray(property?.amenities)
+    ? property.amenities
+    : [];
 
   const builtArea = property?.builtArea ?? null;
   const landArea = property?.landArea ?? null;
@@ -113,17 +115,19 @@ export default function PropertyMainInfo({ property }) {
       <div className="space-y-3 mb-6">
         <div className="flex justify-start items-center gap-1">
           <p className="heading-h4">رهن {deposit ?? "۴,۰۰۰,۰۰۰,۰۰۰"}</p>
-          <img src="/src/assets/icons/toman.svg" alt="تومان" className="size-6" />
+          <img src="/assets/icons/toman.svg" alt="تومان" className="size-6" />
         </div>
 
         <div className="flex justify-start items-center gap-1">
           <p className="heading-h4">اجاره {rent ?? "۵۰,۰۰۰,۰۰۰"}</p>
-          <img src="/src/assets/icons/toman.svg" alt="تومان" className="size-6" />
+          <img src="/assets/icons/toman.svg" alt="تومان" className="size-6" />
         </div>
       </div>
 
       <div className="flex justify-between items-center border-t py-3 mb-10 border-b border-neutral-tint-3">
-        <p className="text-body-xs text-neutral-tint-2">شناسه آگهی: {idLabel}</p>
+        <p className="text-body-xs text-neutral-tint-2">
+          شناسه آگهی: {idLabel}
+        </p>
 
         <div className="flex justify-center gap-1 text-body-xs text-neutral-tint-2">
           <svg
@@ -148,7 +152,10 @@ export default function PropertyMainInfo({ property }) {
         <PropertyTabs />
 
         {/* ✅ SECTION: main-info */}
-        <section id="main-info" className="scroll-mt-32 py-8 border-b border-neutral-tint-3">
+        <section
+          id="main-info"
+          className="scroll-mt-32 py-8 border-b border-neutral-tint-3"
+        >
           <div className="flex">
             <p className="heading-h6 border-b-3 border-primary pb-3 mb-6">
               اطلاعات تکمیلی
@@ -208,7 +215,10 @@ export default function PropertyMainInfo({ property }) {
         </section>
 
         {/* ✅ SECTION: facilities */}
-        <section id="facilities" className="scroll-mt-32 py-8 border-b border-neutral-tint-3">
+        <section
+          id="facilities"
+          className="scroll-mt-32 py-8 border-b border-neutral-tint-3"
+        >
           <div className="flex">
             <p className="heading-h6 border-b-3 border-primary pb-3 mb-6">
               تجهیزات و امکانات
@@ -234,7 +244,10 @@ export default function PropertyMainInfo({ property }) {
         </section>
 
         {/* ✅ SECTION: description */}
-        <section id="description" className="scroll-mt-32 py-8 border-b border-neutral-tint-3">
+        <section
+          id="description"
+          className="scroll-mt-32 py-8 border-b border-neutral-tint-3"
+        >
           <div className="flex">
             <p className="heading-h6 border-b-3 border-primary pb-3 mb-6">
               توضیحات
