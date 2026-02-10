@@ -1,3 +1,5 @@
+import home from "../../assets/icons/home.svg";
+
 export default function SearchFilter() {
   return (
     <div>
@@ -98,7 +100,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl">
             <div className="absolute inset-0">
               <img
-                src="public/assets/icons/dep.svg"
+                src="/assets/icons/dep.svg"
                 alt="department"
                 className="w-full h-full object-cover"
               />
@@ -118,7 +120,7 @@ export default function SearchFilter() {
           <div className="relative overflow-hidden w-full h-96 flex flex-col justify-end rounded-2xl">
             <div className="absolute inset-0">
               <img
-                src="src/assets/icons/home.svg"
+                src={home}
                 alt="Villa house"
                 className="w-full h-full object-cover"
               />
